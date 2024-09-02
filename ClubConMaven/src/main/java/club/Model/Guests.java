@@ -4,18 +4,18 @@
  * and open the template in the editor.
  */
 package club.Model;
-import java.sql.Date;
+import java.sql.Types;
 /**
  *
  * @author ESTUDIANTE
  */
-public class Invoice {
+public class Guests {
     private long id;
     private Person personId;
     private Parthers parthersId;
-    private Date CreationDate;
+    private Types StattusGuest;
     
-    public Invoice(){
+    public Guests(){
     
     }
 
@@ -43,12 +43,12 @@ public class Invoice {
         this.parthersId = parthersId;
     }
 
-    public Date getCreationDate() {
-        return CreationDate;
+    public Types getStattusGuest() {
+        return StattusGuest;
     }
 
-    public void setCreationDate(Date CreationDate) {
-        this.CreationDate = CreationDate;
+    public void setStattusGuest(Types StattusGuest) {
+        this.StattusGuest = StattusGuest;
     }
     
 }
