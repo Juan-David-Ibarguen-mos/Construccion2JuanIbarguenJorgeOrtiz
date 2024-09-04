@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package club.Model;
-import java.sql.Types;
 /**
  *
  * @author ESTUDIANTE
@@ -13,7 +12,7 @@ public class Guests {
     private long id;
     private Person personId;
     private Parthers parthersId;
-    private Types StattusGuest;
+    private String StattusGuest;
     
     public Guests(){
     
@@ -43,11 +42,11 @@ public class Guests {
         this.parthersId = parthersId;
     }
 
-    public Types getStattusGuest() {
+    public String getStattusGuest() {
         return StattusGuest;
     }
 
-    public void setStattusGuest(Types StattusGuest) {
+    public void setStattusGuest(String StattusGuest) {
         this.StattusGuest = StattusGuest;
     }
     

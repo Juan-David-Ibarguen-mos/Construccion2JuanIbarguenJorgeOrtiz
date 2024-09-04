@@ -9,6 +9,8 @@ package club.Controller;
  *
  * @author ESTUDIANTE
  */
-public class AdminController {
+public class AdminController implements CotrollerInterface{
+
+   
     
 }

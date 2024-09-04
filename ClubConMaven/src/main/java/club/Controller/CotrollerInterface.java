@@ -9,6 +9,6 @@ package club.Controller;
  *
  * @author ESTUDIANTE
  */
-public class CotrollerInterface {
-    
+public interface CotrollerInterface {
+    public void session() throws Exception;
 }

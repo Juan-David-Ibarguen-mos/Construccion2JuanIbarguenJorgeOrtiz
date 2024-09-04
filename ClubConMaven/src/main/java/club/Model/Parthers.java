@@ -5,7 +5,7 @@
  */
 package club.Model;
 import java.sql.Date;
-import java.sql.Types;
+
 /**
  *
  * @author ESTUDIANTE
@@ -14,7 +14,7 @@ public class Parthers {
     private long id;
     private Person personId;
     private long AvailableFunds;
-    private Types SubscriptionType;
+    private String SubscriptionType;
     private Date SharpeningDate;
     
     public Parthers(){
@@ -45,11 +45,11 @@ public class Parthers {
         this.AvailableFunds = AvailableFunds;
     }
 
-    public Types getSubscriptionType() {
+    public String getSubscriptionType() {
         return SubscriptionType;
     }
 
-    public void setSubscriptionType(Types SubscriptionType) {
+    public void setSubscriptionType(String SubscriptionType) {
         this.SubscriptionType = SubscriptionType;
     }
 

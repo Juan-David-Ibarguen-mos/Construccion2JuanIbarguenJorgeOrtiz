@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package club.Model;
-import java.sql.Types;
 
 /**
  *
@@ -14,7 +13,7 @@ public class User {
     private long id;
     private String UserName;
     private String password;
-    private Types Role;
+    private String Role;
     
     public User(){
     
@@ -44,11 +43,11 @@ public class User {
         this.password = password;
     }
 
-    public Types getRole() {
+    public String getRole() {
         return Role;
     }
 
-    public void setRole(Types Role) {
+    public void setRole(String Role) {
         this.Role = Role;
     }
     
